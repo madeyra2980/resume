@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мадияр Аскаров — Разработчик</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">MA</div>
+    <ul class="nav-links">
+      <li><a href="#about">О себе</a></li>
+      <li><a href="#skills">Навыки</a></li>
+      <li><a href="#projects">Проекты</a></li>
+      <li><a href="#contact">Контакт</a></li>
+    </ul>
+    <button class="nav-burger" id="burger" aria-label="menu"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">Привет, меня зовут</p>
+      <h1 class="hero-name">Мадияр Аскаров</h1>
+      <div class="hero-role">
+        <span class="role-prefix">Я </span>
+        <span class="typewriter" id="typewriter"></span>
+        <span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">Создаю продукты под ключ — от идеи и UX до релиза и масштабирования.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">Посмотреть проекты</a>
+        <a href="#contact" class="btn btn-outline">Связаться</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">О <span class="accent">себе</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Разработчик мобильных приложений и веб-платформ с предпринимательским мышлением.
+            Работаю быстро, структурно и с фокусом на коммерческий результат.
+          </p>
+          <p>
+            Специализируюсь на создании сервисных платформ, CRM-систем и стартап-проектов.
+            Охватываю весь цикл разработки — от концепции и прототипирования до публикации в сторах.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Проектов</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Платформы</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Под ключ</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card glass">
+          <div class="about-card-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Фокус на результат</h3>
+          <ul>
+            <li><i class="fas fa-circle-check"></i> Полный цикл разработки</li>
+            <li><i class="fas fa-circle-check"></i> Публикация в App Store / Google Play</li>
+            <li><i class="fas fa-circle-check"></i> REST API интеграция</li>
+            <li><i class="fas fa-circle-check"></i> Масштабируемая архитектура</li>
+            <li><i class="fas fa-circle-check"></i> Анализ рынка Казахстана</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Технические <span class="accent">навыки</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group glass">
+          <div class="skill-group-header">
+            <span class="skill-icon"><i class="fas fa-mobile-screen"></i></span>
+            <h3>Mobile Development</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Flutter</span>
+            <span class="badge">Dart</span>
+            <span class="badge">Android</span>
+            <span class="badge">Kotlin</span>
+            <span class="badge">iOS</span>
+            <span class="badge">Swift</span>
+            <span class="badge">APK Build</span>
+            <span class="badge">App Store</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass">
+          <div class="skill-group-header">
+            <span class="skill-icon"><i class="fas fa-globe"></i></span>
+            <h3>Web Development</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">JavaScript</span>
+            <span class="badge">HTML/CSS</span>
+            <span class="badge">Лендинги</span>
+            <span class="badge">CRM системы</span>
+            <span class="badge">Админ панели</span>
+            <span class="badge">UI/UX</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass">
+          <div class="skill-group-header">
+            <span class="skill-icon"><i class="fas fa-gear"></i></span>
+            <h3>Backend & Architecture</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">REST API</span>
+            <span class="badge">Базы данных</span>
+            <span class="badge">Масштабирование</span>
+            <span class="badge">Сервисные платформы</span>
+            <span class="badge">Геолокация</span>
+            <span class="badge">Push уведомления</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass">
+          <div class="skill-group-header">
+            <span class="skill-icon"><i class="fas fa-lightbulb"></i></span>
+            <h3>Product & Business</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Стартап модели</span>
+            <span class="badge">Анализ рынка</span>
+            <span class="badge">Продуктовое мышление</span>
+            <span class="badge">AI концепции</span>
+            <span class="badge">Презентации</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Мои <span class="accent">проекты</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card glass">
+          <div class="project-tag">Сервисная платформа</div>
+          <div class="project-icon"><i class="fas fa-location-dot"></i></div>
+          <h3>Komek</h3>
+          <p>Платформа для вызова мастеров на дом. Геолокация, live-статусы, уведомления в реальном времени и масштабируемая микросервисная архитектура.</p>
+          <div class="project-tech">
+            <span class="badge small">Flutter</span>
+            <span class="badge small">REST API</span>
+            <span class="badge small">Геолокация</span>
+            <span class="badge small">Push-уведомления</span>
+          </div>
+          <div class="project-features">
+            <span><i class="fas fa-angle-right"></i> Геолокация и отслеживание</span>
+            <span><i class="fas fa-angle-right"></i> Live-статусы заказов</span>
+            <span><i class="fas fa-angle-right"></i> Масштабируемая архитектура</span>
+          </div>
+        </div>
+
+        <div class="project-card glass">
+          <div class="project-tag">Mobile Apps</div>
+          <div class="project-icon"><i class="fas fa-mobile-screen"></i></div>
+          <h3>Коммерческие приложения</h3>
+          <p>Разработка мобильных приложений под Android и iOS для бизнес-клиентов. Полный цикл: от проектирования UI/UX до публикации в сторах.</p>
+          <div class="project-tech">
+            <span class="badge small">Android</span>
+            <span class="badge small">iOS</span>
+            <span class="badge small">Kotlin</span>
+            <span class="badge small">Swift</span>
+          </div>
+          <div class="project-features">
+            <span><i class="fas fa-angle-right"></i> UI/UX адаптивная верстка</span>
+            <span><i class="fas fa-angle-right"></i> Бизнес-логика</span>
+            <span><i class="fas fa-angle-right"></i> Публикация в сторах</span>
+          </div>
+        </div>
+
+        <div class="project-card glass">
+          <div class="project-tag">Web Platform</div>
+          <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>CRM & Веб-платформы</h3>
+          <p>Создание CRM-систем, корпоративных сайтов и административных панелей. Интеграция с бэкендом, управление данными и аналитика.</p>
+          <div class="project-tech">
+            <span class="badge small">JavaScript</span>
+            <span class="badge small">REST API</span>
+            <span class="badge small">Базы данных</span>
+          </div>
+          <div class="project-features">
+            <span><i class="fas fa-angle-right"></i> Корпоративные сайты</span>
+            <span><i class="fas fa-angle-right"></i> Административные панели</span>
+            <span><i class="fas fa-angle-right"></i> Интеграция с API</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Свяжитесь <span class="accent">со мной</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p class="contact-lead">Готов к новым проектам и сотрудничеству. Пишите — отвечаю быстро.</p>
+          <div class="contact-links">
+            <a href="https://t.me/madiaraskarov" class="contact-item glass" target="_blank">
+              <span class="contact-item-icon"><i class="fab fa-telegram"></i></span>
+              <div>
+                <span class="contact-item-label">Telegram</span>
+                <span class="contact-item-val">@mdr2980</span>
+              </div>
+            </a>
+            <a href="mailto:madiaraskarov@gmail.com" class="contact-item glass">
+              <span class="contact-item-icon"><i class="fas fa-envelope"></i></span>
+              <div>
+                <span class="contact-item-label">Email</span>
+                <span class="contact-item-val">madeyra2980@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/madeyra2980" class="contact-item glass" target="_blank">
+              <span class="contact-item-icon"><i class="fab fa-github"></i></span>
+              <div>
+                <span class="contact-item-label">GitHub</span>
+                <span class="contact-item-val">https://github.com/madeyra2980</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form glass" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Ваше имя" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email или Telegram" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Расскажите о проекте..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-full">Отправить сообщение</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Мадияр Аскаров. Разработано вручную с <i class="fas fa-heart footer-heart"></i></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
